@@ -26,4 +26,4 @@ let estudianteLastName = estudiante.charAt(estudiante.length - 1);
 let estudianteSinEspacios = estudiante.split(" ").join("");
 
 // - Una variable booleana que diga si el Nombre está contenido en la variable "estudiante"
-let comprobacion = estudiante.includes("Carlos");
+let comprobacion = estudiante.includes(nombre);
